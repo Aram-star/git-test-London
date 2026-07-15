@@ -1,58 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <h3><a href="index.html">Home</a></h3>
     <h3><a href="aboutus.html">About us</a></h3>
     <h3><a href="reg.html">register</a></h3>
 
 
-    <select>
-        <form>
-     <option selected disabled value="">Select country</option>
-     <option value="Italy">Italy</option>
-     <option value="Spain">Spain</option>
-     <option value="Ukraina">Ukraina</option>
-     <option value="">Portugal</option>
-     <option value="USA">USA</option>
-     <option value="Armenia">Armenia</option>
-        </form>
-     </select>
-     
-     
-     <form>
-     <br><br>
-     <label for="name">Name</label>
-     <input id="name" placeholder="Aram" type="text">
-     <br><br>
-     
-     <label for="pas">password</label>
-     <input id="pas" type="password">
-     <br><br>
-     
-     <label for="email">email</label>
-     <input id="email" placeholder="London23@gmail.com" type="email">
-     <br><br>
-     
-     <label for="">years old</label>
-     <input type="number">
-     <br><br>
-     
-     <label for="">date of birth</label>
-     <input type="date">
-     <br><br>
-     
-     <button type="submit">Register</button>
-     <button type="reset">Reset</button>
-     </form>
+    <form>
+        <select name="country">
+            <option selected disabled value="">Select country</option>
+            <option value="Italy">Italy</option>
+            <option value="Spain">Spain</option>
+            <option value="Ukraina">Ukraina</option>
+            <option value="Portugal">Portugal</option>
+            <option value="USA">USA</option>
+            <option value="Armenia">Armenia</option>
+        </select>
+
+
+
+        <br><br>
+        <label for="name">Name</label>
+        <input id="name" name="username" placeholder="username" type="text">
+        <br><br>
+
+        <label for="pas">password</label>
+        <input id="pas" placeholder="password" type="password">
+        <br><br>
+
+        <label for="email">email</label>
+        <input id="email" name="email" placeholder="email" type="email">
+        <br><br>
+
+        <label for="">Age</label>
+        <input placeholder="years old" name="age" type="number">
+        <br><br>
+
+        <label for="">date of birth</label>
+        <input type="date" name="date">
+        <br><br>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+    </form>
 
 
 
 
 </body>
+
 </html>
